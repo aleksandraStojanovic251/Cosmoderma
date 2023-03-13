@@ -1,0 +1,236 @@
+*{
+margin:0px;	
+padding:0px;
+font-family: 'Jost', sans-serif;
+}
+.cistac{clear:both;}
+#zaglavlje{
+position:-webkit-sticky;
+position:sticky;
+z-index:2;
+top:0px;
+width:96,5%;
+padding:20px;
+opacity:0.8;
+background-color:white;	
+}
+	
+a{
+text-decoration:none;
+color:black;
+
+}
+#logo{
+float:left;	
+width:25%;
+margin-top:5px;
+padding-left:15px	
+}
+#logo h1{
+font-size:40px;	
+}
+#logo h1 a .c {color:#FF1493;}
+#logo h1 a .d {color:#FF1493;}
+
+#navigacija{float:right;}
+
+ul{list-style-type:none;}
+#navigacija ul{
+margin-top:25px;
+float:right;
+
+
+
+}
+
+#navigacija ul li{  	
+display:inline;
+float:left;
+margin-right:60px;
+margin-left:20px;
+text-transform:uppercase;
+font-size:17px;
+transition-property:color;
+}
+ #navigacija ul li a:hover{
+color:deeppink;	
+}
+
+
+
+#galerija{
+	width:100%;
+	height:1200px;
+	background-color:;#ccffff;
+	grid-auto-flow: column;
+ 
+
+}
+
+.ng{
+font-size:40px;
+text-align:center;	
+letter-spacing:6px; 
+color:#33cccc;
+text-shadow:4px 4px deeppink;
+
+text-transform:uppercase;
+margin-top:2%;
+}
+
+.red1, .red2, .red3{
+width:100%;
+height:350px;	
+
+
+}
+.cistac{clear:both}
+.img1, .img2, .img3{
+width:25%;
+height:270px;
+
+float:left;
+margin:4%;
+
+
+ --g:#0000 ,#000 .5deg 90deg,#0000 91deg;
+  --m:
+    conic-gradient(from 45deg ,var(--g)) 20px 0  no-repeat,
+    conic-gradient(from 135deg,var(--g)) 0 20px  no-repeat,
+    conic-gradient(from 225deg,var(--g)) -20px 0 no-repeat,
+    conic-gradient(from 315deg,var(--g)) 0 -20px no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  transition: .3s linear;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+.img1:hover{
+  -webkit-mask-position: 0 0;
+          mask-position: 0 0;
+  filter: grayscale(0);
+
+}
+
+.img2:hover{
+  -webkit-mask-position: 0 0;
+          mask-position: 0 0;
+  filter: grayscale(0);
+
+}
+.img3:hover{
+  -webkit-mask-position: 0 0;
+          mask-position: 0 0;
+  filter: grayscale(0);
+
+}
+.red1 .img1{
+	background-image:url("pexels-cottonbro-studio-4813347.jpg");
+	background-size:cover;
+}
+.red1 .img2{
+	background-image:url("pexels-freestocksorg-361754.jpg");
+	background-size:cover;
+}
+
+.red1 .img3{
+	background-image:url("pexels-rodnae-productions-7755653.jpg");
+	background-size:cover;
+}
+
+.red2 .img1{
+background-image:url("pexels-polina-tankilevitch-3736520.jpg");
+	background-size:cover;
+}
+.red2 .img2{
+	background-image:url("pexels-rodnae-productions-7755521.jpg");
+	background-size:cover;
+}
+.red2 .img3{
+	background-image:url("pexels-cottonbro-studio-7440125.jpg");
+	background-size:cover;
+}
+.red3 .img1{
+	background-image:url("pexels-max-vakhtbovych-6899550.jpg");
+	background-size:cover;
+}
+.red3 .img2{
+	background-image:url("pexels-max-rahubovskiy-6899543.jpg");
+	background-size:cover;
+}
+
+.red3 .img3{
+	background-image:url("pexels-tima-miroshnichenko-6763618.jpg");
+	background-size:cover;
+}
+footer{
+width:100%;
+height:300px;
+
+background-color:
+ #85e0e0;}
+
+footer  .kontakt , .linkovi{
+width:15%;
+display:inline;
+margin:10px auto;
+color:black;
+}
+
+.n1 , .n2{
+color:white;
+font-size:25px;
+text-transform:uppercase;
+}
+.kontakt ul li , .linkovi ul li{
+font-size:20px;
+
+}
+.linkovi ul li{
+	text-transform:uppercase;
+}
+#logo2 .c , .d{
+color:deeppink;	
+}
+footer .kontakt{
+float:right;
+margin-right:10%;
+}
+.kontakt i{color:deeppink;}
+footer .linkovi{
+float:left;
+margin-left:10%;
+}
+
+footer #logo2{
+font-size:35px;
+text-align:center;
+}
+
+.linkovi ul li{
+transition-property:color;
+}
+.linkovi ul li a:hover{color:deeppink;}
+
+.cistac{clear:both;}
+#dmreze{
+
+ background-color:#2bc4cb;
+padding-top:50px;
+ height:80px;
+
+}
+#dmreze i{
+margin-right:80px;
+color:white;
+font-size:30px;
+
+}
+#dmreze ul li{
+	display:inline;
+	margin:10px auto;
+	transition-property:color;
+}
+#dmreze ul{margin-left:30%;}
+
+#dmreze ul li a i:hover{color: 	 #ff3385;}
