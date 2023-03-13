@@ -1,0 +1,232 @@
+*{
+margin:0px;	
+padding:0px;
+font-family: 'Jost', sans-serif;
+}
+.cistac{clear:both;}
+header{
+position:-webkit-sticky;
+position:sticky;
+top:0px;
+z-index:2	
+width:96,5%;
+padding:20px;
+opacity:0.8;
+background-color:white;	
+}
+	
+a{
+text-decoration:none;
+color:black;
+
+}
+#logo{
+float:left;	
+width:25%;
+margin-top:5px;
+padding-left:15px	
+}
+#logo h1{
+font-size:40px;	
+}
+#logo h1 a .c {color:#FF1493;}
+#logo h1 a .d {color:#FF1493;}
+
+nav{float:right;}
+
+ul{list-style-type:none;}
+nav ul{
+margin-top:25px;
+float:right;
+
+
+
+}
+
+nav ul li{  	
+display:inline;
+float:left;
+margin-right:60px;
+margin-left:20px;
+text-transform:uppercase;
+font-size:17px;
+transition-property:color;
+}
+nav ul li a:hover{
+color:deeppink;	
+}
+
+#sadrzaj{
+width:100%;
+height:500px;
+background-color:;
+padding-top:4%;
+
+}
+#sadrzaj h1{
+font-size:40px;
+text-align:center;
+text-transform:uppercase;
+color:deeppink;
+text-shadow:4px 4px #33cccc;
+letter-spacing:4px;
+
+}
+
+#usl{
+width:100%;
+height:850px;
+
+}
+.usl1, .usl2, .usl3{
+height:350px;
+background-color:deeppink;
+
+}
+
+figcaption{
+text-align:center;
+font-size:25px;
+color:white;
+
+}
+p{
+padding:8%;
+}
+
+.insta{
+color:;
+}
+img{
+width:30%;
+height:350px;
+float:left;
+padding:0px;
+opacity:0.2;}
+
+
+.usl2 img{
+	float:right;
+}
+.usl1{
+margin-top:%;
+
+}
+.usl2{
+background-color:
+ #33cccc;
+
+
+text-align:right;
+}
+
+.cistac{clear:both;}
+#cenovnik{
+padding-top:30%;
+
+}
+#cenovnik h1{
+font-size:40px;
+text-align:center;
+text-transform:uppercase;
+color:deeppink;
+text-shadow:4px 4px #33cccc;
+letter-spacing:4px;
+border-bottom:1px solid;
+}
+.frizer, .nokti, .depilacija{
+margin:6% 7%;
+float:right;
+}
+
+.frizer h2, .nokti h2, .depilacija h2{
+	padding:40px;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	word-spacing:2px;
+	color:deeppink;
+	font-size:30px;
+	
+	
+}
+.frizer ul li, .nokti ul li, .depilacija ul li{
+margin-bottom:2%;	
+margin-left:6%;
+font-size:27px;
+
+
+}
+footer{
+width:100%;
+height:300px;
+
+background-color:
+ #85e0e0;}
+
+footer  .kontakt , .linkovi{
+width:15%;
+display:inline;
+margin:10px auto;
+color:black;
+}
+
+.n1 , .n2{
+color:white;
+font-size:25px;
+text-transform:uppercase;
+}
+.kontakt ul li , .linkovi ul li{
+font-size:20px;
+
+}
+.linkovi ul li{
+	text-transform:uppercase;
+}
+#logo2 .c , .d{
+color:deeppink;	
+}
+footer .kontakt{
+float:right;
+margin-right:10%;
+}
+.kontakt i{color:deeppink;}
+footer .linkovi{
+float:left;
+margin-left:10%;
+}
+
+footer #logo2{
+font-size:35px;
+text-align:center;
+}
+
+.linkovi ul li{
+transition-property:color;
+}
+.linkovi ul li a:hover{color:deeppink;}
+
+.cistac{clear:both;}
+
+#dmreze{
+
+ background-color:#2bc4cb;
+padding-top:50px;
+ height:80px;
+
+}
+#dmreze i{
+margin-right:80px;
+color:white;
+font-size:30px;
+
+}
+#dmreze ul li{
+	display:inline;
+	margin:10px auto;
+	transition-property:color;
+}
+#dmreze ul{margin-left:38%;}
+
+#dmreze ul li a i:hover{color: 	 #ff3385;}
+
+
